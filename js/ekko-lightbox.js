@@ -146,9 +146,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
     },
     center: function() {
       return this.modal.find('.modal-dialog').css({
-        'left': function() {
-          return -($(this).width() / 2);
-        }
+        'left': '0'
       });
     },
     resize: function(width, height) {
